@@ -22,18 +22,18 @@ export const Home = () => {
   return (
     <div className="container-fluid text-light">
       <div className="row text-light d-flex justify-content-center align-items-center text-center mt-5 mb-5 ">
-        <div className="col-sm-6 about ">
+        <div className="col-sm-6 col-md-6 about ">
           <h3 className="imp-text">Heyy there!👋....</h3>
           <h2>
             <span>I'm </span>Gaurav Pawse
           </h2>
           <h2 className="gradient-text">MERN Stack Developer</h2>
         </div>
-        <div className="col-sm-6">
+        <div className="col-sm-6 col-md-6">
           <img
             src={myPhoto}
             alt="My Profile"
-            style={{ height: "400px", width: "70%", borderRadius: "30px" }}
+            style={{ height: "400px", width: "80%", borderRadius: "30px" }}
           />
         </div>
       </div>

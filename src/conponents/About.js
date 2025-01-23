@@ -4,26 +4,29 @@ import Footer from './Footer';
 
 export const About = () => {
   return (
-    <div className="container-fluid text-light">
-      <div className='container row mt-5'>
-        <div className='col d-flex flex-column justify-content-center align-items-center'>
-        <h2 className='imp-text'>Hello 👋....</h2>
-          <h2>I'm Gaurav Pawse</h2>
-          <h2 className='gradient-text'>MERN Stack Developer</h2>
+    <>
+      <div className="container-fluid row text-light d-flex justify-content-center align-items-center text-center mt-5 mb-5 ">
+        <div className="col-sm-6 col-md-6 about ">
+          <h3 className="imp-text">Hello 👋....</h3>
+          <h2>
+            <span>I'm </span>Gaurav Pawse
+          </h2>
+          <h2 className="gradient-text">MERN Stack Developer</h2>
         </div>
-        <div className='col-sm-6 d-flex justify-content-center align-items-center'>
-           <img
-              src={myPhoto}
-              alt="My Profile"
-                style={{ height: "400px", width: "70%", borderRadius: "30px" }}
-            />
+        <div className="col-sm-6 col-md-6">
+          <img
+            src={myPhoto}
+            alt="My Profile"
+            style={{ height: "400px", width: "80%", borderRadius: "30px" }}
+          />
         </div>
       </div>
+      {/* introduction  */}
       <div className='container d-flex justify-content-center align-items-center mt-5'>
-          <h2 className=' text-secondary'>Introduction</h2>
+        <h2 className=' text-secondary'>Introduction</h2>
       </div>
-      <div className='container text-center mx-5'>
-      <p>
+      <div className='container text-center text-light mx-5'>
+        <p>
           I'm a Motivated MERN stack developer with a strong foundation in{" "}
           <b>JavaScript, React, Node.js, Express.js and MongoDB.</b> Seeking an
           entry-level position to apply my technical skills and contribute to
@@ -45,7 +48,7 @@ export const About = () => {
           4. <b>Node.js:</b> A JavaScript runtime environment for executing JavaScript code server-side.
         </p>
       </div>
-      <Footer/>
-    </div>
+      <Footer />
+    </>
   )
 }

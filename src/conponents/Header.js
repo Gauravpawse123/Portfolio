@@ -10,7 +10,7 @@ export const Header = (props) => {
           <h1 className=""><span>G</span>aurav</h1>
         </NavLink>
         <button
-          className="navbar-toggler bg-primary"
+          className="navbar-toggler bg-body"
           type="button"
           data-toggle="collapse"
           data-target="#navbarSupportedContent"
