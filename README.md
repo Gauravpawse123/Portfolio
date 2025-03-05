@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Free Next.js Startup Website Template
+
+### ✨ Key Features
+- Crafted for Gaurav Pawse
+- Next.js and Tailwind CSS
+- High-quality and Clean Design
+- Dark and Light Version
+- TypeScript Support
+and Much More ...
+
+### Update Log
+**04 March 2025**
+- Upgraded to Next.js 15
+>>>>>>> 5d80278 (Update Portfolio using Next.js)
