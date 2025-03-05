@@ -28,7 +28,7 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="About Me!"
-                paragraph="👋 Hello, I'm Gaurav, a passionate MERN Stack Developer with expertise in building scalable, user-friendly web applications. I specialize in React, Next.js, TypeScript, and Node.js, MongoDB, creating seamless digital experiences with clean and maintainable code. 😉"
+                paragraph="👋 Hello, I&apos;m Gaurav, a passionate MERN Stack Developer with expertise in building scalable, user-friendly web applications. I specialize in React, Next.js, TypeScript, and Node.js, MongoDB, creating seamless digital experiences with clean and maintainable code. 😉"
                 mb="44px"
               />
 

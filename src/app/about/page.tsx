@@ -1,8 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import Breadcrumb from "@/components/Common/Breadcrumb";
-import Image from "next/image";
 import { Metadata } from "next";
-import Hero from "@/components/Hero";
 
 export const metadata: Metadata = {
   title: "Gaurav | About",

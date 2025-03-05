@@ -15,7 +15,7 @@ const Hero = () => {
                 <div className="text-3xl font-bold col-auto">
                   <h3 className="">Heyy there!👋....</h3>
                   <h2 className="text-blue-500 dark:text-teal-300">
-                    <span>I'm </span>Gaurav Pawse
+                    <span>I&apos;m </span>Gaurav Pawse
                   </h2>
                   <h2 className="bg-clip-text bg-gradient-to-tl from-blue-600 to-violet-400 text-transparent">MERN Stack Developer</h2>
                 </div>
