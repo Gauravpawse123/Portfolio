@@ -1,5 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import Breadcrumb from "@/components/Common/Breadcrumb";
+import Experience from "@/components/Experience";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ const AboutPage = () => {
         description="👋 Hi, I'm Gaurav"
       />
       <AboutSectionOne />
+      <Experience />
     </>
   );
 };

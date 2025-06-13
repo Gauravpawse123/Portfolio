@@ -2,7 +2,7 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Skills from "@/components/Skills";
 import Hero from "@/components/Hero";
-import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 import { Metadata } from "next";
 import Tools from "@/components/Tools";
 import Projects from "@/components/Projects";
@@ -21,9 +21,9 @@ export default function Home() {
       <Skills />
       <Tools />
       <Projects />
-      <Education />
+      <Experience />
       <Contact />
-      <Resume/>
+      <Resume />
     </>
   );
 }
