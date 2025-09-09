@@ -60,7 +60,7 @@ const Header = () => {
                   } `}
               >
                 <Image
-                  src="/images/logo/logo.jpg"
+                  src="/images/logo/new_logo.png"
                   alt="logo"
                   width={55}
                   height={10}

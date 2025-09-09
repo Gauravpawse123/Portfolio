@@ -8,24 +8,51 @@ const Footer = () => {
       <footer className="relative z-10 bg-white pt-10 dark:bg-gray-dark md:pt-12 lg:pt-14">
         <div className="container mx-auto p-10 md:px-20">
           <div className="sm:flex sm:items-center sm:justify-between">
-            <Link href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
-              <Image src="/images/logo/logo.jpg" height={30} width={30} alt="Logo" className="rounded-full"/>
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Gaurav</span>
+            <Link
+              href="/"
+              className="mb-4 flex items-center space-x-3 sm:mb-0 rtl:space-x-reverse"
+            >
+              <Image
+                src="/images/logo/new_logo.png"
+                height={30}
+                width={30}
+                alt="Logo"
+                className="rounded-full"
+              />
+              <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+                Gaurav
+              </span>
             </Link>
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <ul className="mb-6 flex flex-wrap items-center text-sm font-medium text-gray-500 dark:text-gray-400 sm:mb-0">
               <li>
-                <Link href="/about" className="hover:underline me-4 md:me-6">About</Link>
+                <Link href="/about" className="me-4 hover:underline md:me-6">
+                  About
+                </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:underline me-4 md:me-6">Contact</Link>
+                <Link href="/contact" className="me-4 hover:underline md:me-6">
+                  Contact
+                </Link>
               </li>
               <li>
-                <Link href="/projects" className="hover:underline me-4 md:me-6">Projects</Link>
+                <Link href="/projects" className="me-4 hover:underline md:me-6">
+                  Projects
+                </Link>
               </li>
             </ul>
           </div>
-          <div className="h-px w-full my-4 bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-          <span className="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <Link href="https://www.instagram.com/gaurav_pawse123?igsh=a3lnODlvc2JpbWV2" target="_blank" className="hover:underline">Gaurav™</Link>. All Rights Reserved.😉</span>
+          <div className="my-4 h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <span className="block text-sm text-gray-500 dark:text-gray-400 sm:text-center">
+            © 2025{" "}
+            <Link
+              href="https://www.instagram.com/gaurav_pawse123?igsh=a3lnODlvc2JpbWV2"
+              target="_blank"
+              className="hover:underline"
+            >
+              Gaurav™
+            </Link>
+            . All Rights Reserved.😉
+          </span>
         </div>
         <div className="absolute right-0 top-14 z-[-1]">
           <svg
