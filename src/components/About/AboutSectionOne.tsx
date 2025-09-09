@@ -19,16 +19,14 @@ const AboutSectionOne = () => {
 
   return (
     <section id="about" className="pt-5 md:pt-10 lg:pt-10">
-      <SectionSubTitle
-        title="About !"
-      />
+      <SectionSubTitle title="About !" />
       <div className="container">
         <div className="border-b border-body-color/[.15] pb-16 dark:border-white/[.15] md:pb-20 lg:pb-28">
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
                 title="About Me!"
-                paragraph="👋 Hello, I&apos;m Gaurav, a passionate MERN Stack Developer with expertise in building scalable, user-friendly web applications. I specialize in React, Next.js, TypeScript, and Node.js, MongoDB, creating seamless digital experiences with clean and maintainable code. 😉"
+                paragraph="👋 Hello, I'm Gaurav, a passionate MERN Stack Developer with expertise in building scalable, user-friendly web applications. I specialize in React, Next.js, TypeScript, and Node.js, MongoDB, creating seamless digital experiences with clean and maintainable code. 😉"
                 mb="44px"
               />
 
@@ -37,7 +35,7 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="grid grid-cols-2">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <div className="w-full px-1 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="HTML" />
                     <List text="CSS" />
                     <List text="Bootstrap" />
@@ -46,7 +44,7 @@ const AboutSectionOne = () => {
                     <List text="Typescript" />
                   </div>
 
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                  <div className="w-full px-1 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="React.js" />
                     <List text="Next.js" />
                     <List text="Node.js" />
@@ -64,13 +62,13 @@ const AboutSectionOne = () => {
                   src="/images/about.webp"
                   alt="about-image"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden shadow-2xl dark:drop-shadow-none lg:mr-0 rounded-lg"
+                  className="mx-auto max-w-full rounded-lg shadow-2xl drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
                   src="/images/about.webp"
                   alt="about-image"
                   fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0 rounded-lg"
+                  className="mx-auto hidden max-w-full rounded-lg drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
